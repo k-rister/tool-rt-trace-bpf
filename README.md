@@ -6,4 +6,4 @@ Built from upstream [rt-trace-bpf](https://github.com/xzpeter/rt-trace-bpf) and 
 
 ## Integration
 
-Rt-trace-bpf runs as a profiler tool on endpoint nodes. It is allowed on profiler, master, worker, and compute collector roles but blocked on client and server roles. The collector invokes `rt-trace-bcc.py` with configurable CPU list, summary, and backtrace options.
+Rt-trace-bpf runs as a profiler tool on endpoint nodes. It is allowed on compute and profiler collector roles but blocked on client and server roles. The collector invokes `rt-trace-bcc.py` with configurable CPU list, summary, and backtrace options.

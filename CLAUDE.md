@@ -18,5 +18,5 @@ BCC-based real-time kernel tracing tool. Captures kernel trace events using eBPF
 
 ## Conventions
 - Primary branch is `main`
-- Runs as a profiler tool on master/worker/profiler/compute roles, blocked on client/server
+- Runs as a profiler tool on compute/profiler roles, blocked on client/server
 - Depends on BCC and kernel headers at runtime
