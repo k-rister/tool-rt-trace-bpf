@@ -54,7 +54,7 @@ modinfo kheaders >> rt-trace-bpf-kheaders.txt
 
 cmd="/root/rt-trace-bpf/rt-trace-bcc.py --cpu-list ${cpu_list} --summary --backtrace"
 echo "About to run: ${cmd}"
-${cmd} > rt-trace-bpf-stderrout.txt &
+${cmd} > rt-trace-bpf-stderrout.txt 2>&1 &
 rt_trace_bpf_pid=$!
 echo "${rt_trace_bpf_pid}" >> rt-trace-bpf-pids.txt
 echo "rt-trace-bpf pid is ${rt_trace_bpf_pid}"
