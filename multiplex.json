@@ -1,0 +1,14 @@
+{
+    "presets": {
+        "defaults" : [
+            { "arg": "cpu-list", "vals": ["0"] }
+        ]
+    },
+    "validations": {
+        "integer_range" : {
+            "description" : "a range of whole numbers >= 0 (e.g. 0-3, 1,2,3, or 0-7,16-23)",
+            "args" : [ "cpu-list" ],
+            "vals": "(\\d+(-\\d+)?(,\\s*\\d+(-\\d+)?)*|\\d+(-\\d+)?)"
+        }
+    }
+}
