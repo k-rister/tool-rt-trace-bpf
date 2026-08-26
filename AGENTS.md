@@ -34,4 +34,4 @@ Crucible tool for BCC-based real-time kernel tracing during benchmark execution.
 ## Conventions
 - Primary branch is `main`
 - Profiler tool allowed on compute and profiler roles, blocked on client and server roles
-- Standard Bash and Python modelines with 4-space indentation
+- 4-space indentation; Python scripts include vim/emacs modelines
