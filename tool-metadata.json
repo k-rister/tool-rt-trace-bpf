@@ -1,0 +1,17 @@
+{
+  "rickshaw-tool-metadata": {
+    "schema": {
+      "version": "2026.08.11"
+    }
+  },
+  "tool": "rt-trace-bpf",
+  "description": "Real-time kernel tracing utility using eBPF/BCC to capture kernel trace events, backtraces, and summary statistics across designated CPU cores without CDM metric indexing.",
+  "cdm_indexed": false,
+  "output_files": [
+    "rt-trace-bpf-kheaders.txt",
+    "rt-trace-bpf-pids.txt",
+    "rt-trace-bpf-start-stderrout.txt",
+    "rt-trace-bpf-stderrout.txt.xz",
+    "rt-trace-bpf-stop-stderrout.txt"
+  ]
+}
